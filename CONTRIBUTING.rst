@@ -85,7 +85,10 @@ Create a virtual environment and install all dependencies (including dev):
 
 .. code:: shell
 
-    $ uv sync --dev
+    $ uv sync --all-extras
+    $ source .venv/bin/activate
+    $ make precommit
+    $ rstuf
 
 
 .. note::
