@@ -41,7 +41,7 @@ dependencies = [
   "google-cloud-kms",
   "hvac",
   "azure-keyvault-keys",
-  "pykcs11",
+  "pykcs11>=1.5.19",
   "asn1crypto",
   "exceptiongroup",
 ]
